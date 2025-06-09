@@ -2,15 +2,71 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Schedule for TechCon 2024</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0 1rem;
+        background-color: #f9f9f9;
+        color: #222;
+      }
+      header,
+      footer {
+        background-color: #003366;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        margin: 0 1rem;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:focus,
+      nav a:hover {
+        text-decoration: underline;
+        outline: 2px solid #fff;
+        outline-offset: 2px;
+      }
+      main {
+        max-width: 900px;
+        margin: 2rem auto;
+        background: white;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1rem;
+      }
+      caption {
+        caption-side: top;
+        font-weight: bold;
+        font-size: 1.25rem;
+        padding-bottom: 0.5rem;
+        text-align: left;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 0.75rem;
+        text-align: left;
+      }
+      th {
+        background-color: #003366;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <caption>
-        Detailed Schedule of Events for TechCon 2024
-      </caption>
       <h1>Schedule for TechCon 2024</h1>
-      <nav>
+      <nav aria-label="Primary navigation">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="register.html">Register</a>
@@ -32,16 +88,46 @@
         </thead>
         <tbody>
           <tr>
-            <td>09:00 AM</td>
-            <td>Opening Keynote</td>
-            <td>Jane Doe</td>
+            <td>09:00 AM - 10:00 AM</td>
+            <td>Opening Keynote: The Future of Tech</td>
+            <td>Dr. Maya Patel</td>
+          </tr>
+          <tr>
+            <td>10:15 AM - 11:00 AM</td>
+            <td>AI in Everyday Life</td>
+            <td>James Lee</td>
+          </tr>
+          <tr>
+            <td>11:15 AM - 12:00 PM</td>
+            <td>Cybersecurity Essentials</td>
+            <td>Aisha Thompson</td>
+          </tr>
+          <tr>
+            <td>12:00 PM - 01:00 PM</td>
+            <td>Lunch Break</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>01:00 PM - 02:00 PM</td>
+            <td>Workshop: Building Responsive Web Apps</td>
+            <td>Carlos Martinez</td>
+          </tr>
+          <tr>
+            <td>02:15 PM - 03:00 PM</td>
+            <td>Panel: Women in Tech</td>
+            <td>Multiple Speakers</td>
+          </tr>
+          <tr>
+            <td>03:15 PM - 04:00 PM</td>
+            <td>Closing Remarks & Networking</td>
+            <td>TechCon Team</td>
           </tr>
         </tbody>
       </table>
     </main>
 
     <footer>
-      <p>&copy; TechCon 2024. All rights reserved.</p>
+      <p>Copyright &copy; TechCon 2024. All rights reserved.</p>
     </footer>
   </body>
 </html>
